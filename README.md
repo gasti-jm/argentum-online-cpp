@@ -15,7 +15,7 @@ http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php
 ![a](https://user-images.githubusercontent.com/82490615/141686424-f6b579a0-5c03-4aa9-826d-0d4c0d9ed17f.png)
 ![asd](https://user-images.githubusercontent.com/82490615/141686445-5df67c70-f752-4ccb-83f5-f9eb0905c2e7.png)
 
-
 # Thanks to:
-Lazy Foo' Productions and their tutorials: http://lazyfoo.net/tutorials/SDL/index.php#Hello%20SDL
+Pablo Marquez (Morgolock) creator of Argentum Online
 The GS-Zone people: http://gs-zone.org/
+Lazy Foo' Productions and their tutorials: http://lazyfoo.net/tutorials/SDL/index.php#Hello%20SDL
