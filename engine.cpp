@@ -713,10 +713,10 @@ void Engine::moveTo(eHeading Direccion) {
 }
 
 bool Engine::hayAgua(int x, int y) {
-    return ((((resources.getMapData(x, y).layer[0].grhIndex >= 21781) &&
-        (resources.getMapData(x, y).layer[0].grhIndex <= 21796)) ||
-        ((resources.getMapData(x, y).layer[0].grhIndex >= 21797) &&
-            (resources.getMapData(x, y).layer[0].grhIndex <= 21812))) && resources.getMapData(x, y).layer[1].grhIndex == 0);
+    return ((resources.getMapData(x, y).layer[0].grhIndex >= 1505 && resources.getMapData(x, y).layer[0].grhIndex <= 1520) ||
+    (resources.getMapData(x, y).layer[0].grhIndex >= 5665 && resources.getMapData(x, y).layer[0].grhIndex <= 5680) ||
+    (resources.getMapData(x, y).layer[0].grhIndex >= 13547 && resources.getMapData(x, y).layer[0].grhIndex <= 13562)) &&
+        resources.getMapData(x, y).layer[1].grhIndex == 0;
 }
 
 int Engine::text_Width(std::string text) {
