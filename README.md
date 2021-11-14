@@ -1,7 +1,7 @@
 # Argentum Online C++
 MMORPG Video Game of the year 1999 created in Visual Basic 6.0 by Pablo Marquez (Morgolock), this game is open source under the "GNU General Public License".  
 
-I have traslated in C++ under SDL2.
+I have traslated in C++ under SDL2 and this is a client base, the connection with your server would be missing.
 
 # How to compilate
 Visual Studio 2019 is needed (although with Code::blocks, DevC++ or any other IDE you can use it, if you know how to build the project).
