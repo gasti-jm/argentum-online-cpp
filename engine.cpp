@@ -439,21 +439,21 @@ void Engine::checkInput() {
                 case SDLK_o: charlist[0].invisible = !charlist[0].invisible; break;
 			}
         }
-
-        checkKeys();
     }
 }
 
 void Engine::checkKeys() {
+    const Uint8* keys = SDL_GetKeyboardState(NULL);
     if (UserMoving) return;
 
-    if (e.type == SDL_KEYDOWN) {
-        switch (e.key.keysym.sym) {
-            case SDLK_UP: moveTo(eHeading::NORTH); break;
-            case SDLK_DOWN: moveTo(eHeading::SOUTH); break;
-            case SDLK_LEFT: moveTo(eHeading::WEST); break;
-            case SDLK_RIGHT: moveTo(eHeading::EAST); break;
-        }
+    if (keys[SDL_GetScancodeFromKey(SDLK_UP)]) {
+        moveTo(eHeading::NORTH);
+    } else if (keys[SDL_GetScancodeFromKey(SDLK_DOWN)]) {
+        moveTo(eHeading::SOUTH);
+    } else if (keys[SDL_GetScancodeFromKey(SDLK_LEFT)]) {
+        moveTo(eHeading::WEST);
+    } else if (keys[SDL_GetScancodeFromKey(SDLK_RIGHT)]) {
+        moveTo(eHeading::EAST);
     }
 }
 
