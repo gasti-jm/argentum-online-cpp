@@ -138,23 +138,16 @@ void Engine::showNextFrame() {
 }
 
 void Engine::renderScreen(int tilex, int tiley, int PixelOffsetX, int PixelOffsetY) {
-    int y; int x;
-    int screenminY; int screenmaxY;
-    int screenminX; int screenmaxX;
-    int minY; int maxY;
-    int minX; int maxX;
-    int ScreenX = 0; int ScreenY = 0;
-    int minXOffset = 0; int minYOffset = 0;
-
-    screenminY = tiley - ((resources.getCFG().screen_height / TILE_PIXEL_SIZE) / 2);
-    screenmaxY = tiley + ((resources.getCFG().screen_height / TILE_PIXEL_SIZE) / 2);
-    screenminX = tilex - ((resources.getCFG().screen_width / TILE_PIXEL_SIZE) / 2);
-    screenmaxX = tilex + ((resources.getCFG().screen_width / TILE_PIXEL_SIZE) / 2);
-    
-    minY = screenminY - 1;
-    maxY = screenmaxY + 1;
-    minX = screenminX - 1;
-    maxX = screenmaxX + 1;
+    int screenminY = tiley - ((resources.getCFG().screen_height / TILE_PIXEL_SIZE) / 2);
+    int screenmaxY = tiley + ((resources.getCFG().screen_height / TILE_PIXEL_SIZE) / 2);
+    int screenminX = tilex - ((resources.getCFG().screen_width / TILE_PIXEL_SIZE) / 2);
+    int screenmaxX = tilex + ((resources.getCFG().screen_width / TILE_PIXEL_SIZE) / 2);
+    int minY = screenminY - 1;
+    int maxY = screenmaxY + 1;
+    int minX = screenminX - 1;
+    int maxX = screenmaxX + 1;
+    int ScreenX = 0, ScreenY = 0;
+    int minXOffset = 0, minYOffset = 0;
 
     if (minY < 0){
         minYOffset = 0 - minY;
@@ -189,9 +182,9 @@ void Engine::renderScreen(int tilex, int tiley, int PixelOffsetX, int PixelOffse
     if (screenmaxX < 99) screenmaxX = screenmaxX + 1;
 
     ScreenY = minYOffset - 1;
-    for (y = minY; y <= maxY; y++) {
+    for (int y = minY; y <= maxY; y++) {
         ScreenX = minXOffset - 1;
-        for (x = minX; x <= maxX; x++) {
+        for (int x = minX; x <= maxX; x++) {
 
             if (resources.getMapData(x, y).layer[0].grhIndex != 0) {
                 drawTexture(resources.getMapData(x, y).layer[0],
@@ -211,9 +204,9 @@ void Engine::renderScreen(int tilex, int tiley, int PixelOffsetX, int PixelOffse
     }
 
     ScreenY = minYOffset - 1;
-    for (y = minY; y <= maxY; y++){
+    for (int y = minY; y <= maxY; y++){
         ScreenX = minXOffset - 1;
-        for (x = minX; x <= maxX; x++){
+        for (int x = minX; x <= maxX; x++){
 
             if (resources.getMapData(x, y).objgrh.grhIndex != 0) {
                 drawTexture(resources.getMapData(x, y).objgrh,
@@ -238,9 +231,9 @@ void Engine::renderScreen(int tilex, int tiley, int PixelOffsetX, int PixelOffse
     }
 
     ScreenY = minYOffset - 1;
-    for (y = minY; y <= maxY; y++){
+    for (int y = minY; y <= maxY; y++){
         ScreenX = minXOffset - 1;
-        for (x = minX; x <= maxX; x++){
+        for (int x = minX; x <= maxX; x++){
             if (resources.getMapData(x, y).layer[3].grhIndex != 0) {
                 drawTexture(resources.getMapData(x, y).layer[3],
                     ScreenX * TILE_PIXEL_SIZE + PixelOffsetX,
