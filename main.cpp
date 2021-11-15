@@ -7,6 +7,7 @@ int main(int argc, char* args[]){
 		while (engine->getPrgRun()) {
 			engine->showNextFrame();
 			engine->checkInput();
+			engine->checkKeys();
 		}
 	}
 
