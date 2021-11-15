@@ -27,9 +27,6 @@ void Audio::close() {
         Mix_FreeMusic(music);
         music = NULL;
     }
-
-    delete sound;
-    delete music;
 }
 
 void Audio::playMusic(std::string nameMusic, bool isMidi) {
@@ -41,7 +38,7 @@ void Audio::playMusic(std::string nameMusic, bool isMidi) {
         path << "Resources/music/" << nameMusic << ".mp3"; // por la intro de AO.
     }
 
-    // ¿Hay musica reproduciendose?
+    // Â¿Hay musica reproduciendose?
     if (music != NULL) {
         stopMusic();
     }
