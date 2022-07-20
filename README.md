@@ -1,5 +1,7 @@
 # Argentum Online C++
-MMORPG Video Game of the year 1999 created in Visual Basic 6.0 by Pablo Marquez (Morgolock), this game is open source under the "GNU General Public License".  
+<a target="_blank"><img src="https://img.shields.io/github/license/gasti-jm/Argentum-Online-CPP.svg"></img></a>
+<a target="_blank"><img src="https://img.shields.io/github/downloads/gasti-jm/Argentum-Online-CPP.svg"></img></a>
+MMORPG Video Game of the year 1999 created in Visual Basic 6.0 by Pablo Marquez (Morgolock), this game is open source.  
 
 I have translated in C++ under SDL2, this game would be your base client, it would be necessary to implement the multiplayer with your server.
 
