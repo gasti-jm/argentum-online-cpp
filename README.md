@@ -1,7 +1,7 @@
 # Argentum Online C++
-<a target="_blank"><img src="https://img.shields.io/badge/Build%20for-Windows-0078D6.svg"></img></a>
+<a target="_blank"><img src="https://img.shields.io/badge/Build%20for-Windows-43ca1f.svg"></img></a>
 <a target="_blank"><img src="https://img.shields.io/badge/Made%20in-Visual%20Studio-be27e9.svg"></img></a>
-<a target="_blank"><img src="https://img.shields.io/badge/License-General%20Public%20License%203.0-e98227.svg"></img></a>
+<a target="_blank"><img src="https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-e98227.svg"></img></a>
 
 MMORPG Video Game of the year 1999 created in Visual Basic 6.0 by Pablo Marquez (Morgolock), this game is open source.  
 
