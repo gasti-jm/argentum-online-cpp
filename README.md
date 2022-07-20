@@ -8,7 +8,7 @@ MMORPG Video Game of the year 1999 created in Visual Basic 6.0 by Pablo Marquez 
 I have translated in C++ under SDL2, this game would be your base client, it would be necessary to implement the multiplayer with your server.
 
 # How to compile
-Visual Studio > 2019 is needed (although with Code::blocks, DevC++ or any other IDE you can use it, if you know how to build the project).
+Visual Studio 2019 is needed (although with Code::blocks, DevC++ or any other IDE you can use it, if you know how to build the project).
 
 You must also install and include the SDL2 library along with SDL_Image and SDL_Mixer.
 
@@ -20,7 +20,7 @@ http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php
 ![asd](https://user-images.githubusercontent.com/82490615/141686445-5df67c70-f752-4ccb-83f5-f9eb0905c2e7.png)
 
 # Thanks to:
-Pablo Marquez (Morgolock) creator of Argentum Online
+<b>Pablo Marquez (Morgolock) creator of Argentum Online</b>
 
 The GS-Zone people: http://gs-zone.org/
 
