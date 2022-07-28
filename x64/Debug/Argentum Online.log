@@ -1,13 +1,2 @@
-﻿  engine.cpp
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.h(38,31): warning C4305: 'inicializando': truncamiento de 'double' a 'const float'
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.cpp(112,49): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.cpp(120,49): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.cpp(131,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.cpp(131,18): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.cpp(640,42): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.cpp(641,42): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-  main.cpp
-C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\engine.h(38,31): warning C4305: 'inicializando': truncamiento de 'double' a 'const float'
-  window.cpp
-  Generando código...
-  Argentum Online.vcxproj -> C:\Users\Gasty\Desktop\Argentum Online C++\Argentum Online\x64\Debug\Argentum Online.exe
+﻿  gui.cpp
+  Argentum Online.vcxproj -> D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\x64\Debug\Argentum Online.exe

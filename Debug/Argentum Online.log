@@ -1,0 +1,19 @@
+﻿  gui.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\texture.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  inventory.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\inventory.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  resources.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\resources.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  engine.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\engine.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  main.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\engine.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  audio.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\audio.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL_mixer.h': No such file or directory
+  surface.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\texture.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  texture.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\texture.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  window.cpp
+D:\Proyectos\Mis proyectos\Argentum Online C++\Argentum Online\window.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  Generando código...
