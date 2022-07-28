@@ -16,6 +16,7 @@ Steps for windows:
 http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php
 
 # Images
+![Untitled](https://user-images.githubusercontent.com/82490615/181441638-67b6e05a-333a-4879-9b71-0b28ccd54853.png)
 ![a](https://user-images.githubusercontent.com/82490615/141686424-f6b579a0-5c03-4aa9-826d-0d4c0d9ed17f.png)
 ![asd](https://user-images.githubusercontent.com/82490615/141686445-5df67c70-f752-4ccb-83f5-f9eb0905c2e7.png)
 
