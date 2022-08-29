@@ -27,4 +27,4 @@ Lazy Foo' Productions and their tutorials: http://lazyfoo.net/tutorials/SDL/inde
 
 The GS-Zone people
 
-<a target="_blank" href="https://www.gs-zone.org/"><img src="https://www.gs-zone.org/styles/default/gszone/logo.png"></img></a>
+<a target="_blank" href="https://www.gs-zone.org/"><img src="https://user-images.githubusercontent.com/82490615/187148671-1d7f92b9-7ea1-45f2-b6f1-f53b07454d93.png"></img></a>
