@@ -23,12 +23,16 @@
 ![a](https://user-images.githubusercontent.com/82490615/141686424-f6b579a0-5c03-4aa9-826d-0d4c0d9ed17f.png)
 ![asd](https://user-images.githubusercontent.com/82490615/141686445-5df67c70-f752-4ccb-83f5-f9eb0905c2e7.png)
 
-<div align='center'>
 <h1>Thanks to:</h1>
-<b>Pablo Marquez (Morgolock) creator of Argentum Online</b>
-Lazy Foo' Productions and their tutorials
+<br/>
 
-The GS-Zone people
+<div align='center'>
 
-<a target="_blank" href="https://www.gs-zone.org/"><img src="https://user-images.githubusercontent.com/82490615/187148671-1d7f92b9-7ea1-45f2-b6f1-f53b07454d93.png"></img></a>
+<p>
+  <b>Pablo Marquez (Morgolock) creator of Argentum Online</b> <br/>
+  Lazy Foo' Productions and their tutorials  <br/><br/>
+  The GS-Zone people <br/>
+  <a target="_blank" href="https://www.gs-zone.org/"><img src="https://user-images.githubusercontent.com/82490615/187148671-1d7f92b9-7ea1-45f2-b6f1-f53b07454d93.png"></img></a>
+</p>
+
 </div>
